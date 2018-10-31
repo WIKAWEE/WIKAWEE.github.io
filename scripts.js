@@ -1,4 +1,5 @@
-var myHead = document.querySelector('h1').texContent = 'changed';
+var myHeading = document.querySelector('h1');
+myHeading.textContent = 'Hello world!';
 /*const zipField = document.querySeletor('#zipField');
 const zipSubmit = document.querySelector('#zipSubmit');
 zipSubmit.addEventListener('click', getWithZip());

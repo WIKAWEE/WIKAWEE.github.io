@@ -4,5 +4,5 @@ const zipSubmit = document.querySelector('#zipSubmit');
 zipSubmit.addEventListener('click', getWithZip);
 
 function getWithZip(){
-  myHead.text("Cnale");
+  myHead.innerHTML = "Cnale";
 }

@@ -6,10 +6,11 @@
   </head>
   <body>
     <h1 id = "title">Welcome to WIKAWEATHER!</h1>
-    <script src="scripts.js"></script>
     <label for = "zipField">Enter ZIP code here:</label>
-    <input type = "text" id = "zipField">
-    <input type ="submit" value = "Go" id = "zipSubmit">
+    <input id = "zipField" type = "text" autocomplete = "on" value = "10030">
+    <button id = "zipButton" onClick = "getWithZip()">Click here!</button>
+    <h2>Your zip code is currently set to <span id = "zipFieldHead">10030</span></h2>
 
+    <script src="scripts.js"></script>
   </body>
 </html>

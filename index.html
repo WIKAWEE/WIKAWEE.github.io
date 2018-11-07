@@ -5,11 +5,15 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1 id = "title">Welcome to WIKAWEATHER!</h1>
+    <img src = "img/WW_logo.png" id = "logo"><br/>
     <label for = "zipField">Enter ZIP code here:</label>
-    <input id = "zipField" type = "text" autocomplete = "on" value = "10030">
-    <button id = "zipButton" onClick = "getWithZip()">Click here!</button>
-    <h2>Your zip code is currently set to <span id = "zipFieldHead">10030</span></h2>
+    <input id = "zipField" type = "number" name = "Zip Code" value = 49866>
+    <button id = "zipButton" onClick = "getWithZip()">Click here to get your weather!</button>
+    <h1 id ="error"></h1>
+    <h2>Your zip code is currently set to <span id = "zipFieldHead">49866</span></h2>
+    <h4 class = "attrib">The current weather is <span id = "weatherDisp"></span>.</h4>
+    <h4 class = "attrib">The current temperature is <span id = "tempDisp"></span> degrees.</h4>
+    <h4 class = "attrib">The current humidity is <span id = "humidDisp"></span>%.</h4>
 
     <script src="scripts.js"></script>
   </body>
